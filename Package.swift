@@ -12,10 +12,10 @@ let package = Package(
   targets: [
      .target(
          name: "lexbor",
-         path: "source",
-         exclude: ["lexbor/ports/windows_nt"],
+         path: "source/lexbor",
+         exclude: ["ports/windows_nt"],
          cSettings: [
-            .headerSearchPath("."),
+            .headerSearchPath("..")
          ]
      ),
   ]
