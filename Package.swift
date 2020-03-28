@@ -15,7 +15,7 @@ let package = Package(
          path: "source",
          exclude: ["lexbor/ports/windows_nt"],
          cSettings: [
-             .headerSearchPath("./"),
+             .headerSearchPath("."),
          ]
      ),
   ]
