@@ -1,0 +1,5 @@
+module lexbor {
+    header "core/lexbor.h"
+
+    export *
+}
