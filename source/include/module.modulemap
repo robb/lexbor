@@ -1,4 +1,4 @@
-module lexbor {
+module lexbor [extern_c] {
     header "../lexbor/core/array.h"
     header "../lexbor/core/array_obj.h"
     header "../lexbor/core/avl.h"
