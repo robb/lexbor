@@ -3,10 +3,10 @@
 import PackageDescription
 
 let package = Package(
-  name: "Lexbor",
+  name: "lexbor",
   products: [
     .library(
-      name: "Lexbor",
+      name: "lexbor",
       targets: ["lexbor"]),
   ],
   targets: [
